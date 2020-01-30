@@ -1,0 +1,52 @@
+html, body {
+  height: 100%;
+  background-image: url(../img/o.jpg)
+}
+tr {
+  height: 250px;
+}
+
+td {
+  width: 250px;
+  background-image: url(../img/o.jpg);
+  background-size: 325%;
+}
+
+div.well {
+  height: 100%;
+  width: 100%;
+}
+
+table {
+  border: 2px solid black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.clickedX {
+  font-size: 1000%;
+  font-weight: bolder;
+  text-align: center;
+  background-image: url(../img/x.jpg);
+  background-position: center;
+  background-size: 100%;
+}
+
+.clickedO {
+  font-size: 1000%;
+  font-weight: bolder;
+  text-align: center;
+  background-image: url(../img/o.jpg);
+  background-position: center;
+  background-size: 100%;
+}
+
+.jumbotron {
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+}
